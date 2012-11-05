@@ -7,17 +7,16 @@ require "social_megafon/version"
 Gem::Specification.new do |s|
   s.name        = "social_megafon"
   s.version     = SocialMegafon::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SocialMegafon."
-  s.description = "TODO: Description of SocialMegafon."
+  s.authors     = ["Shalva Usubov"]
+  s.email       = ["shaliko@ezid.ru"]
+  s.homepage    = "https://github.com/shaliko/social_megafon"
+  s.summary     = "Posting message in social networks"
+  s.description = "Posting message in social networks"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.8"
-  # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
 end
