@@ -1,5 +1,7 @@
 module SocialMegafon
   class Action < ActiveRecord::Base
-    # attr_accessible :title, :body
+
+    belongs_to :resource, :class_name => SocialMegafon.resource_class
+
   end
 end
