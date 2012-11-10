@@ -1,5 +1,5 @@
 # SocialMegafon
 
-[![Build Status](https://secure.travis-ci.org/shaliko/social_megafon.png)](http://travis-ci.org/shaliko/social_megafon)
+[![Build Status](https://secure.travis-ci.org/shaliko/social_megafon.png)](http://travis-ci.org/shaliko/social_megafon) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/shaliko/social_megafon)
 
 This project rocks and uses MIT-LICENSE.
