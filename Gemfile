@@ -15,3 +15,12 @@ gem "jquery-rails"
 
 # To use debugger
 # gem 'debugger'
+
+platforms :jruby do
+  gem "activerecord-jdbc-adapter"
+  gem "activerecord-jdbcsqlite3-adapter"
+end
+
+platforms :ruby do
+  gem "sqlite3"
+end
