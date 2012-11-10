@@ -13,14 +13,14 @@
 
 ActiveRecord::Schema.define(:version => 20121105170646) do
 
-  create_table "social_megafon_actions", :force => true do |t|
+  create_table "social_megaphone_actions", :force => true do |t|
     t.integer  "resource_id", :null => false
     t.string   "service",     :null => false
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
 
-  add_index "social_megafon_actions", ["resource_id"], :name => "index_social_megafon_actions_on_resource_id"
+  add_index "social_megaphone_actions", ["resource_id"], :name => "index_social_megaphone_actions_on_resource_id"
 
   create_table "users", :force => true do |t|
     t.string   "email"

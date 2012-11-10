@@ -1,2 +1,2 @@
-SocialMegafon::Engine.routes.draw do
+SocialMegaphone::Engine.routes.draw do
 end

@@ -1,6 +1,6 @@
-require "social_megafon/engine"
+require "social_megaphone/engine"
 
-module SocialMegafon
+module SocialMegaphone
 
   mattr_writer :resource_class
 

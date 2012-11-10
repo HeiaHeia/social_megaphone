@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
-require "social_megafon"
+require "social_megaphone"
 
 module Dummy
   class Application < Rails::Application

@@ -1,1 +1,1 @@
-SocialMegafon.resource_class = "User"
+SocialMegaphone.resource_class = "User"

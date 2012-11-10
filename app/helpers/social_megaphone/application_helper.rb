@@ -1,4 +1,4 @@
-module SocialMegafon
+module SocialMegaphone
   module ApplicationHelper
   end
 end

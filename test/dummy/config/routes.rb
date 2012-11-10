@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount SocialMegafon::Engine => "/social_megafon"
+  mount SocialMegaphone::Engine => "/social_megaphone"
 end

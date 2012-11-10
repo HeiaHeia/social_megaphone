@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'rails'
 require 'rspec'
-require 'social_megafon'
+require 'social_megaphone'
 
 RSpec.configure do |config|
   config.color_enabled = true

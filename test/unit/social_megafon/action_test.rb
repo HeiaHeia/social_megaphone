@@ -1,6 +1,6 @@
 require 'test_helper'
 
-module SocialMegafon
+module SocialMegaphone
   class ActionTest < ActiveSupport::TestCase
     # test "the truth" do
     #   assert true

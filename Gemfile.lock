@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    social_megafon (0.0.1)
+    social_megaphone (0.0.1)
       rails (~> 3.2.8)
 
 GEM
@@ -103,5 +103,5 @@ PLATFORMS
 DEPENDENCIES
   jquery-rails
   rspec (~> 2.11.0)
-  social_megafon!
+  social_megaphone!
   sqlite3
