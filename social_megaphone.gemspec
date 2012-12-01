@@ -19,4 +19,6 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 3.2.8"
 
   s.add_development_dependency 'rspec', '~> 2.11.0'
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency 'shoulda-matchers', '~> 1.4.2'
 end
