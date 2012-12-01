@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121105170646) do
+ActiveRecord::Schema.define(:version => 20121201205556) do
 
   create_table "social_megaphone_actions", :force => true do |t|
     t.integer  "resource_id", :null => false

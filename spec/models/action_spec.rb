@@ -3,6 +3,6 @@ require '/Users/salvausubov/my_projects/social_megaphone/app/models/social_megap
 
 describe SocialMegaphone::Action do
 
-  it { should belong_to(:user) }
+  it { should belong_to(:resource) }
 
 end
