@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec-rails", "~> 2.12.0"
   s.add_development_dependency 'shoulda-matchers', '~> 1.4.2'
   s.add_development_dependency 'sqlite3', '1.3.6'
+  s.add_development_dependency "autotest-rails", "~> 4.1.2"
 end
